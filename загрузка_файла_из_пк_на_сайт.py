@@ -14,7 +14,6 @@ imput_3 = browser.find_element(By.CSS_SELECTOR, 'body > div > form > div > input
 
 imput_4 = browser.find_element(By.ID, 'file')
 
-
 current_dir = os.path.abspath(os.path.dirname('__file__'))  # получаем путь к директории текущего исполняемого файла
 file_path = os.path.join(current_dir, 'github.txt')           # добавляем к этому пути имя файла
 

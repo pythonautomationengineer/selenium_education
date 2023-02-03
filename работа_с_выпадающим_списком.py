@@ -8,7 +8,6 @@ link = 'http://suninjuly.github.io/selects1.html'
 browser = webdriver.Chrome()
 browser.get(link)
 
-
 first_number = browser.find_element(By.ID, "num1").text
 second_number = browser.find_element(By.ID, "num2").text
 

@@ -14,8 +14,6 @@ browser.get(link)
 
 button_1 = browser.find_element(By.CSS_SELECTOR, 'body > form > div > div > button').click()
 
-# new_window = browser.switch_to.window("Redirect page")
-
 new_window = browser.window_handles[1]
 browser.switch_to.window(new_window)
 

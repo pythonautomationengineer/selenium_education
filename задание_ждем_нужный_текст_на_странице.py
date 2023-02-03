@@ -13,7 +13,6 @@ browser.get(link)
 
 #price_house = browser.find_element_(By.ID, 'price')
 
-
 find_text = WebDriverWait(browser, 12).until(
         EC.text_to_be_present_in_element((By.ID, "price"), "$100"))
 

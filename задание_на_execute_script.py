@@ -31,5 +31,4 @@ submit_submit = browser.find_element(By.CSS_SELECTOR, 'body > div > form > butto
 time.sleep(10)
 
 
-#peopleRule
 

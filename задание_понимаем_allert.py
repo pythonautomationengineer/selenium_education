@@ -25,4 +25,4 @@ pole_pole = browser.find_element(By.ID, 'answer').send_keys(new_new)
 
 button_2 = browser.find_element(By.CSS_SELECTOR, 'body > form > div > div > button').click()
 
-time.sleep(1000)
+time.sleep(10)
